@@ -8,15 +8,31 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: lawngreen;
+    color: rgb(13, 55, 117);
 }
 
+body h3{
+    color:#ffffff;
+    font-size: 40px;
+}
+
+
 .footer{
-    padding-top: 20px;
+    padding-top: 250px;
     display: flex;
-    color: #1da59e;
+    color: #ffffff;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: bold;
+    
+    
+}
 
+@media screen and (max-width: 400px){
+    #snake{
+        width: 320px;      
+    }
+    body{
+        width: 100%;
+        
+    }    
 }

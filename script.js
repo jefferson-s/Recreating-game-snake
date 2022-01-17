@@ -20,7 +20,7 @@ function criarBG() {
 
 function criarcobrinha(){
     for(i=0; i < snake.length; i++){
-        context.fillStyle = "green";
+        context.fillStyle = "blue";
         context.fillRect(snake[i].x, snake[i].y, box, box);
     }
 }
@@ -45,6 +45,8 @@ function iniciarJogo(){
         if(snake[0].x == snake[i].x && snake[0].y == snake[i].y){
             clearInterval(jogo);
             alert('Game Over :(');
+            alert('Aperte F5 para Iniciar o jogo novamente');
+            
         }
     }
 
