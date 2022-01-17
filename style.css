@@ -8,7 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: rgb(13, 55, 117);
+    
 }
 
 body h3{
@@ -18,21 +18,49 @@ body h3{
 
 
 .footer{
-    padding-top: 250px;
+    text-decoration: double;
+    padding-top: 200px;
     display: flex;
-    color: #ffffff;
+    color: #000000;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0px 5px rgb(255, 255, 255);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.438);
+    justify-content: center;
     
     
 }
+.footer p{
+    background-color:#ffffffad;
+    border-radius: 50px;
+    width: 800px;
+    height: 40px;
+    text-align: center;
+    padding: 0;
+    margin: 0.25rem;
+    padding-top: 20px;
+    
+}
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 378px){
     #snake{
         width: 320px;      
     }
     body{
         width: 100%;
-        
-    }    
+    }
+    
 }
+
+@media screen and (max-width: 768px){
+    body{
+        width: 100%;
+    }
+    .footer p{
+        width: 310px;
+    }  
+}
+
+
+
+  
